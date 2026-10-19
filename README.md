@@ -1,7 +1,8 @@
-# Calculadora de Pesos por Empresa
+# Gestor de Empresas
 
-Um programa simples em Python para gerenciar pesos associados a empresas e calcular totais com base em quantidades informadas. Os dados são persistidos localmente em um arquivo JSON.
-* Para uso pessoal, distribuído publicamente por fins de adição ao portifólio pessoal.
+Sistema simples em Python para cadastrar empresas, gerenciar seus pesos, calcular totais com base em quantidades informadas e executar tarefas auxiliares (soma de dias e leitura de informações de NFe). Os dados são persistidos localmente em um arquivo JSON.
+
+> Para uso pessoal, distribuído publicamente por fins de adição ao portfólio pessoal.
 
 ---
 
@@ -12,10 +13,10 @@ Um programa simples em Python para gerenciar pesos associados a empresas e calcu
 - **Remover empresa** — remove uma empresa cadastrada.
 - **Listar empresas** — exibe todas as empresas e seus pesos.
 - **Mudar peso** — atualiza o peso de uma empresa já cadastrada.
-- **Somar dias** - uma calculadora de datas, usuário insere um número e soma com o dia de hoje.
-- **Listar informações de NFe** - lista as informações de uma nota fiscal .json.
+- **Somar dias** — calculadora de datas: o usuário informa um número de dias e o programa soma à data de hoje.
+- **Listar informações de NFe** — lê um arquivo `.json` de nota fiscal e exibe suas informações.
 
-Os dados são salvos automaticamente no arquivo `empresas.json`, garantindo persistência entre execuções.
+Os dados das empresas são salvos automaticamente no arquivo `empresas.json`, garantindo persistência entre execuções.
 
 ---
 
@@ -27,7 +28,6 @@ Os dados são salvos automaticamente no arquivo `empresas.json`, garantindo pers
 
 ## 🚀 Como executar
 
-1. Clone o repositório ou baixe o arquivo `main.py`.
-2. No terminal, navegue até a pasta do projeto:
+1. Clone o repositório:
    ```bash
-   cd caminho/para/o/projeto
+   git clone https://github.com/flawedbliss1/GestordeEmpresas.git
