@@ -26,7 +26,7 @@ Os dados das empresas são salvos automaticamente no arquivo `empresas.json`, ga
 
 ---
 
-## 🚀 Como executar
+## Como executar
 
 1. Clone o repositório:
    ```bash
