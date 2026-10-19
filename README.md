@@ -2,7 +2,7 @@
 
 Sistema simples em Python para cadastrar empresas, gerenciar seus pesos, calcular totais com base em quantidades informadas e executar tarefas auxiliares (soma de dias e leitura de informações de NFe). Os dados são persistidos localmente em um arquivo JSON.
 
-> Para uso pessoal, distribuído publicamente por fins de adição ao portfólio pessoal.
+> Para uso pessoal: distribuído publicamente por fins de adição ao portfólio pessoal.
 
 ---
 
